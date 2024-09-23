@@ -68,11 +68,11 @@
                        </div>
                   </div>
                   <div class="contact-col">
-                       <form action="">
-                          <input type="text" placeholder="Entrez votre nom" required>
-                          <input type="email" placeholder="Entrez l’adresse e-mail" required>
-                          <input type="text" placeholder="Entrez votre objet" required>
-                          <textarea rows="8" placeholder="Message" required></textarea>
+                      <form action="https://api.web3forms.com/submit" method="POST">
+                          <input type="hidden" name="access_key" value="378d87a9-4847-4f40-a626-a17498e7180b">
+                          <input type="text" placeholder="Entrez votre nom" name="name" required>
+                          <input type="email" placeholder="Entrez l’adresse e-mail" name="email" required>
+                          <textarea rows="8" placeholder="Message" name="message" required></textarea>
                           <button type="submit" class="btn-1 btn">Envoyer</button>
                        </form>
                   </div>
